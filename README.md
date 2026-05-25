@@ -1,16 +1,16 @@
-# AIREADI explorer
+# AI-READI Dataset of Type 2 Diabetes Explorer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Data: AI-READI](https://img.shields.io/badge/Data-AI--READI-blue)](https://aireadi.org)
 
-In this repository we provide code for exploring the AIREADI v3.0.0 dataset. For now, this version primarily serves as an exploratory dashboard. 
+In this repository we provide code for exploring the Flagship Dataset of Type 2 Diabetes from the AI-READI Project (v3.0.0). Currently this version primarily serves as an exploratory dashboard for understanding the dataset structure and quality. Raw signals visualization supports wearable data and CGM. 
 
 *Note: The aggregation of daily summaries and participant-level dataset preparation is not provided in this release and will be included in the next release. Additionally, this explorer is only for the modalities we included (wearables, CGM, and ECG). An explorer for images of the retina is not included in this version.*
 
 It includes functionality for:
 
-- Quality checks 
-- Exploratory dashboard as a Streamlit app
+- Quality checks - currently just functions for further exploration
+- Exploratory **dashboard** as a Streamlit app
 
 ## ⚙️ Installation & Running the Dashboard
 
